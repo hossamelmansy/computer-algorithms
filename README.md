@@ -1,6 +1,6 @@
 # Computer Algorithms
 
-Electron app that contains multiple computer algorithms written in both Python and C++, used to demonstrate how these algorhtims works.
+Electron app that contains multiple computer algorithms written in both Python and C++, used to demonstrate how these algorithms works.
 
 ## Algorithms implemented
 **BruteForce**
