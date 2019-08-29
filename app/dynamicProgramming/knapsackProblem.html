@@ -1,0 +1,59 @@
+<main role="main" class="col-sm-12 ml-sm-auto col-md-12 pt-3">
+  <h1>Knapsack Problem</h1>
+
+  <section class="row placeholders">
+    <div class="col-12">
+      <form>
+        <div class="form-group">
+          <label for="list">List of Values</label>
+          <input
+            type="text"
+            class="form-control"
+            id="values"
+            placeholder="Enter the list of Values..."
+          />
+        </div>
+        <div class="form-group">
+          <label for="list">List of Weights</label>
+          <input
+            type="text"
+            class="form-control"
+            id="weights"
+            placeholder="Enter the list of Weights..."
+          />
+        </div>
+        <div class="form-group">
+          <label for="list">The desired Weight</label>
+          <input
+            type="text"
+            class="form-control"
+            id="weight"
+            placeholder="Enter the desired Weight..."
+          />
+        </div>
+      </form>
+    </div>
+
+    <div class="col-12 text-right">
+      <button
+        type="button"
+        class="btn btn-primary"
+        onclick="knapsackProblemPython()"
+      >
+        Calculate - Python
+      </button>
+      <button
+        type="button"
+        class="btn btn-success"
+        onclick="knapsackProblemCpp()"
+      >
+        Calculate - C++
+      </button>
+    </div>
+
+    <br /><br /><br /><br />
+    <div class="col-12">
+      <h3 class="text-success">Result: <span id="result"></span></h3>
+    </div>
+  </section>
+</main>

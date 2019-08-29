@@ -1,0 +1,50 @@
+<main role="main" class="col-sm-12 ml-sm-auto col-md-12 pt-3">
+  <h1>Huffman Coding</h1>
+
+  <section class="row placeholders">
+    <div class="col-12">
+      <form>
+        <div class="form-group">
+          <label for="list">List of Characters</label>
+          <input
+            type="text"
+            class="form-control"
+            id="characters"
+            placeholder="Enter the list of Characters..."
+          />
+        </div>
+        <div class="form-group">
+          <label for="list">List of Frequencies</label>
+          <input
+            type="text"
+            class="form-control"
+            id="frequencies"
+            placeholder="Enter the list of Frequencies..."
+          />
+        </div>
+      </form>
+    </div>
+
+    <div class="col-12 text-right">
+      <!-- <button
+        type="button"
+        class="btn btn-primary"
+        onclick="huffmanCodingPython()"
+      >
+        Calculate - Python
+      </button> -->
+      <button
+        type="button"
+        class="btn btn-success"
+        onclick="huffmanCodingCpp()"
+      >
+        Calculate - C++
+      </button>
+    </div>
+
+    <br /><br /><br /><br />
+    <div class="col-12">
+      <h3 class="text-success">Result: <span id="result"></span></h3>
+    </div>
+  </section>
+</main>

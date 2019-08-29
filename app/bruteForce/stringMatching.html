@@ -1,0 +1,59 @@
+<main role="main" class="col-sm-12 ml-sm-auto col-md-12 pt-3">
+  <h1>String Matching</h1>
+
+  <section class="row placeholders">
+    <div class="col-12">
+      <form>
+        <div class="form-group">
+          <label for="list">Text</label>
+          <input
+            type="text"
+            class="form-control"
+            id="text"
+            placeholder="Enter a text to search in..."
+          />
+        </div>
+        <div class="form-group">
+          <label for="list">Pattern</label>
+          <input
+            type="text"
+            class="form-control"
+            id="pattern"
+            placeholder="Enter a pattern to search for..."
+          />
+        </div>
+      </form>
+    </div>
+
+    <div class="row col-12">
+      <div class="col-6" style="display: inline-block">
+        <h4>Time Complexity: <span class="text-danger">O(n^2)</span></h4>
+      </div>
+      <div class="col-6 text-right">
+        <button
+          type="button"
+          class="btn btn-primary"
+          onclick="stringMatchingPython()"
+        >
+          Search - Python
+        </button>
+        <button
+          type="button"
+          class="btn btn-success"
+          onclick="stringMatchingCpp()"
+        >
+          Search - C++
+        </button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+    <div class="col-12">
+      <h3 class="text-success">
+        Result:
+        <br /><br />
+        <pre id="result"></pre>
+      </h3>
+    </div>
+  </section>
+</main>

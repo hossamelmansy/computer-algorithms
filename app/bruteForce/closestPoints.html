@@ -1,0 +1,43 @@
+<main role="main" class="col-sm-12 ml-sm-auto col-md-12 pt-3">
+  <h1>Closest Points Problem</h1>
+
+  <section class="row placeholders">
+    <div class="col-12">
+      <form>
+        <div class="form-group">
+          <label for="points">List of points</label>
+          <input
+            type="text"
+            class="form-control"
+            id="points"
+            aria-describedby="listHelp"
+            placeholder="Enter a list of points..."
+          />
+          <small id="listHelp" class="form-text text-muted">
+            A comma separated list (ex: (2, 3), (4, 5), (6, 7), (8, 9), (9, 10))
+          </small>
+        </div>
+      </form>
+    </div>
+
+    <div class="row col-12">
+      <div class="col-6" style="display: inline-block">
+        <h4>Time Complexity: <span class="text-danger">O(n^2)</span></h4>
+      </div>
+      <div class="col-6 text-right">
+        <button type="button" class="btn btn-primary" onclick="closestPoints()">
+          Start
+        </button>
+      </div>
+    </div>
+
+    <br /><br /><br /><br />
+    <div class="col-12">
+      <h3 class="text-success">
+        Result:
+        <br /><br />
+        <pre id="result"></pre>
+      </h3>
+    </div>
+  </section>
+</main>
